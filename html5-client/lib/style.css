@@ -1,0 +1,115 @@
+
+html {
+  min-height: 100%;
+  /* make sure it is at least as tall as the viewport */
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  /* force the BODY element to match the height of the HTML element */
+}
+
+img,
+div {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  width: 125px;
+  height: 182px;
+}
+
+#table {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background: #055005;
+}
+#gameTitle{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 20px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: black; 
+  background: #257025;
+}
+#dealerHand {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+  text-align: center;
+}
+
+#myHand {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 70px;
+  text-align: center;
+}
+
+#options {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  text-align: center;
+  background: #002000;
+}
+
+#deck {
+  display: inline-block;
+}
+
+#discard {
+  display: inline-block;
+}
+
+#board {
+  width: 100%;
+  height: 182px;
+  position: absolute;
+  top: 0;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+#debug-toggle {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#debug-console {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  bottom: 0;
+  width: 400px;
+  border: 1px solid black;
+  background: rgba(0, 0, 0, .5);
+  overflow: scroll;
+  font-size: 8pt;
+  color: white;
+}
+
+.debug-type{ color: yellow}
+.debug-event{color: #55FF55}
+.debug-request{color: #FF5555}
+.debug-settings{color: #5555FF}

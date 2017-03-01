@@ -1,0 +1,12 @@
+{
+    "runtime": {
+        "majorVersion": "8"
+    },
+    "command": "java -jar blackjack-part2-1.0.jar",
+    "release": {
+        "version": "1.0",
+        "build": "1",
+        "commit": "1A2B345"
+    },
+    "notes": "Blackjack Web Service"
+}

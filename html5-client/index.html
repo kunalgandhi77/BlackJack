@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script src="lib/jquery.js"></script>
+  <script src="lib/jquery-ui.js"></script>
+  <script src="lib/numeric.js"></script>
+  <link href="lib/jquery-ui.css" rel="stylesheet">
+  <link href="lib/style.css" rel="stylesheet">
+  <script src="lib/card-game.js"></script>
+</head>
+
+<body>
+  <div id="tables" title="Please select your service.">
+    <input id="servUrl" type="text" size="60" value="http://127.0.0.1:8080/" />
+    <br/>
+    Table: <input id="userName" type="text" size="30" value="1" /> Enter a value (1-9)
+    <br/>
+    <button id="connect">Connect</button>
+  </div>
+  <div id="table">
+    <div id="gameTitle"></div>
+    <div id="dealerHand"></div>
+    <div id="board">
+      <img src="cards/back.png" class="card" />
+      <img src="cards/empty.png" class="card" />
+    </div>
+    <div id="myHand">
+    </div>
+    <div id="options">
+    </div>
+  </div>
+  <button id="debug-toggle">Debug on/off</button>
+  <div id="debug-console" style="display:none;"></div>
+</body>

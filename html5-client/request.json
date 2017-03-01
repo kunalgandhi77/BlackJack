@@ -1,0 +1,7 @@
+{
+    "dealerHand":["BACK", "4H"],
+    "myHand":["2C", "2H"],
+    "players":{"John":["2D", "2S"], "Mike":["JD","AH"], "Tom":["5S", "5C"]},
+    "discardPile":["AC"],
+    "options":["Hit","Stand"]
+}
